@@ -1,0 +1,6 @@
+,model,f1,params
+0,LogisticRegression,0.754614549402823,"{'penalty': 'l2', 'C': 99402.48498709069, 'tol': 3.082633193055766e-05}"
+1,RandomForestClassifier,0.7540453074433657,"{'n_estimators': 418, 'max_depth': 563, 'min_samples_split': 28}"
+2,AdaBoostClassifier,0.7535641547861507,"{'estimator': LogisticRegression(C=2000, tol=0.01), 'n_estimators': 606, 'learning_rate': 0.045413042007599456, 'algorithm': 'SAMME', 'random_state': 0}"
+3,XGBClassifier,0.7675507020280812,"{'objective': 'binary:logistic', 'booster': 'gblinear', 'n_estimators': 683, 'learning_rate': 0.06510772560860068, 'scale_pos_weight': 1.5552333264214817}"
+4,StackingClassifier,0.7592891760904685,
